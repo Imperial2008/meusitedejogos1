@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogos Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jogos Online</h1>
+  </header>
+  <main>
+    <section class="games">
+      <h2>Escolha seu jogo:</h2>
+      <ul>
+        <!-- Jogos com descrições e controles -->
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/27673bc45d2e4b27b7cd24e422f7c257/', 'Bubble Shooter', 'Atire em bolhas e combine cores para eliminá-las.', 'Use o mouse para mirar e atirar.')">Bubble Shooter</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/79a7e528f37b41cb98b85bac9cb17ae3/', 'Train Surfers', 'Corra pelos trilhos e desvie de obstáculos.', 'Use as setas para mover e pular.')">Train Surfers</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/', 'Penalty Shooters 2', 'Marque pênaltis e defenda sua meta.', 'Use o mouse para mirar e chutar.')">Penalty Shooters 2</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/7d9835f1ceb748c1aeec18c6472870b5/', 'Stickman Prison Escape', 'Ajude o stickman a escapar da prisão.', 'Use as setas para mover e espaço para interagir.')">Stickman Prison Escape</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/c9f842ab8eab48a884f3733beeffd140/', 'My Parking Lot', 'Estacione carros em locais designados.', 'Use as setas para dirigir.')">My Parking Lot</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/bf1268dccb5d43e7970bb3edaa54afc8/', 'Basket Random', 'Faça cestas em partidas rápidas e divertidas.', 'Use as teclas W e seta para cima para controlar os jogadores.')">Basket Random</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/38ddde7c022c47ff83ee7acda53a8042/', 'Horror Granny', 'Sobreviva ao terror da avó assustadora.', 'Use as setas para mover e mouse para interagir.')">Horror Granny</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/63424c38f0d04b24a43fb89b911dac50/', 'Sniper Strike', 'Elimine inimigos com precisão de sniper.', 'Use o mouse para mirar e atirar.')">Sniper Strike</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/ca21245aea064a3f8f21b17eec307975/', 'Drift Car Driving', 'Realize drifts incríveis em pistas desafiadoras.', 'Use as setas para dirigir.')">Drift Car Driving</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/559d19c1d83a45cbb4338f375aba4138/', 'Two Punk Racing', 'Corra contra outros jogadores em pistas futuristas.', 'Use as setas para dirigir e turbo.')">Two Punk Racing</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/3f9e0bc89aee49e48469daba1a23a10d/', 'Dog Life Simulator', 'Viva a vida de um cachorro e complete desafios divertidos.', 'Use as setas para mover.')">Dog Life Simulator</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/5bb8b2169cd64ed893e29e705e55eeaf/', 'Baby Panda Care', 'Cuide de um bebê panda em várias atividades.', 'Use o mouse para interagir.')">Baby Panda Care</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/5b0abd4c0faa4f5eb190a9a16d5a1b4c/', 'Moto X3M Bike Race Game', 'Complete corridas desafiadoras com sua moto.', 'Use as setas para controlar a moto.')">Moto X3M Bike Race Game</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/cf1a0eab2e8f4e169758b301c2e8574e/', 'Stickman Supreme Shooter', 'Derrote os inimigos com armas poderosas.', 'Use as setas para mover e mouse para atirar.')">Stickman Supreme Shooter</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/e7278c9e730e42f98e32adbbbcf96bc2/', 'Finger Soccer 2020', 'Jogue partidas de futebol com um único toque.', 'Clique e arraste para chutar a bola.')">Finger Soccer 2020</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/72b97cf38278422b8b9ab83eba0ffa3a/', 'Ludo Classic', 'Jogue o clássico jogo de tabuleiro Ludo.', 'Use o mouse para rolar o dado e mover peças.')">Ludo Classic</a>
+        </li>
+        <li>
+          <a href="#" onclick="openGame('//html5.gamedistribution.com/7c4103dbf8ee4ded981b15bbcdb22e8f/', 'Stick Fighter 3D', 'Lute contra outros stickmen em combates 3D.', 'Use as setas para mover e Z/X para atacar.')">Stick Fighter 3D</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="game-container" style="display:none;">
+      <button onclick="goBack()" id="back-button">Voltar</button>
+      <iframe id="game-frame" src="" width="100%" height="500px"></iframe>
+      <div id="game-info">
+        <h3 id="game-title"></h3>
+        <p id="game-description"></p>
+        <p id="game-controls"></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Jogos Online</p>
+  </footer>
+
+  <script>
+    function openGame(gameUrl, title, description, controls) {
+      document.querySelector('.games').style.display = 'none';
+      document.getElementById('game-container').style.display = 'block';
+      document.getElementById('game-frame').src = gameUrl;
+
+      document.getElementById('game-title').textContent = title;
+      document.getElementById('game-description').textContent = "Descrição: " + description;
+      document.getElementById('game-controls').textContent = "Como jogar: " + controls;
+    }
+
+    function goBack() {
+      document.querySelector('.games').style.display = 'block';
+      document.getElementById('game-container').style.display = 'none';
+      document.getElementById('game-frame').src = '';
+
+      document.getElementById('game-title').textContent = '';
+      document.getElementById('game-description').textContent = '';
+      document.getElementById('game-controls').textContent = '';
+    }
+  </script>
+</body>
+</html>
